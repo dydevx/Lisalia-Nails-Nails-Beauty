@@ -128,6 +128,37 @@ a {
   box-shadow: 0 10px 24px rgba(13, 107, 85, 0.24);
 }
 
+.language-flag {
+  position: relative;
+  display: inline-block;
+  width: 22px;
+  height: 15px;
+  flex: 0 0 auto;
+  overflow: hidden;
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45);
+}
+
+.flag-es {
+  background: linear-gradient(
+    to bottom,
+    #aa151b 0 25%,
+    #f1bf00 25% 75%,
+    #aa151b 75% 100%
+  );
+}
+
+.flag-gb {
+  background:
+    linear-gradient(27deg, transparent 44%, #fff 44% 50%, #c8102e 50% 56%, #fff 56% 62%, transparent 62%),
+    linear-gradient(153deg, transparent 44%, #fff 44% 50%, #c8102e 50% 56%, #fff 56% 62%, transparent 62%),
+    linear-gradient(to right, transparent 39%, #fff 39% 61%, transparent 61%),
+    linear-gradient(to bottom, transparent 32%, #fff 32% 68%, transparent 68%),
+    linear-gradient(to right, transparent 44%, #c8102e 44% 56%, transparent 56%),
+    linear-gradient(to bottom, transparent 39%, #c8102e 39% 61%, transparent 61%),
+    #012169;
+}
+
 .primary-button {
   background: var(--rose);
   color: white;
